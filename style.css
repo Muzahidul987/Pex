@@ -1,0 +1,15 @@
+/* this is body section  */
+body{
+    margin: 0px;
+}
+
+/* this is heading_poster section  */
+.heading_poster{
+    background-image: url(Images/poster.png);
+    background-size: cover;
+    width: 100%;
+
+}
+.heading_poster .heading{
+    width: 300px;
+}
