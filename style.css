@@ -6,10 +6,33 @@ body{
 /* this is heading_poster section  */
 .heading_poster{
     background-image: url(Images/poster.png);
+    background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-
+    color: white;
+    font-family: sans-serif;
+    display: inline-block;
 }
-.heading_poster .heading{
-    width: 300px;
+.heading_poster .heading .logo{
+    margin: 30px 0px 0px 90px;
+    display: inline-block;
+}
+.heading_poster .heading .logo img{
+    width: 80px;
+}
+.heading_poster .heading .name{
+    display: inline-block;
+    width: 200px;
+}
+.heading_poster .heading .name h3{
+    display: inline-block;
+}
+.heading_poster .heading .name h5{
+    display: inline-block;
+}
+.heading_poster .heading .options{
+    display: inline-block;
+}
+.heading_poster .heading .options .option{
+    margin: 0 15px;
 }
