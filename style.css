@@ -1,38 +1,45 @@
 /* this is body section  */
-body{
-    margin: 0px;
+body {
+    margin: 0;
 }
 
 /* this is heading_poster section  */
-.heading_poster{
-    background-image: url(Images/poster.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
+nav {
     color: white;
     font-family: sans-serif;
-    display: inline-block;
+    display: flex;
+    background-color: rgba(0, 0, 0, .5);
 }
-.heading_poster .heading .logo{
-    margin: 30px 0px 0px 90px;
-    display: inline-block;
+
+nav .logo img {
+    margin: 10px 0 5px 60px;
+    width: 90px;
 }
-.heading_poster .heading .logo img{
-    width: 80px;
+
+nav .name {
+    display: flex;
+    margin-left: 10px;
+    flex: 1;
 }
-.heading_poster .heading .name{
-    display: inline-block;
-    width: 200px;
+
+nav .name h3 {
+    font-size: 30px;
+    margin: 10px 10px;
 }
-.heading_poster .heading .name h3{
-    display: inline-block;
+nav .name h5{
+    font-size: 10px;
+    margin-top: 25px;
 }
-.heading_poster .heading .name h5{
-    display: inline-block;
+
+nav .options {
+    display: flex;
+    flex: 2;
+    margin-left: 200px;
 }
-.heading_poster .heading .options{
-    display: inline-block;
+nav .options .option{
+    margin: 20px 20px;
 }
-.heading_poster .heading .options .option{
-    margin: 0 15px;
+nav .options input{
+    border-radius: 10px;
+    border-color: aliceblue;
 }
