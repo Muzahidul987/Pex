@@ -9,6 +9,8 @@ nav {
     font-family: sans-serif;
     display: flex;
     background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    width: 100%;
 }
 
 nav .logo img {
@@ -26,7 +28,8 @@ nav .name h3 {
     font-size: 30px;
     margin: 10px 10px;
 }
-nav .name h5{
+
+nav .name h5 {
     font-size: 10px;
     margin-top: 25px;
 }
@@ -35,11 +38,21 @@ nav .options {
     display: flex;
     flex: 2;
     margin-left: 200px;
+    text-transform: capitalize;
+   
 }
-nav .options .option{
+
+nav .options .option {
     margin: 20px 20px;
+    text-decoration: none;
+    align-content: center;
 }
-nav .options input{
+
+nav .options a:hover {
+    color: #fd3254;
+}
+
+nav .options input {
     border-radius: 10px;
     border-color: aliceblue;
 }
