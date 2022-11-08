@@ -10,11 +10,12 @@ nav {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     background-color: rgba(0, 0, 0, .5);
-    position: sticky;
+    /* position:fixed; */
+    width: 100%;
 }
 nav .logo{
-    grid-columns:1/3 ;
-    justify-self: end;
+    grid-column:2/3 ;
+    justify-self: center;
 }
 nav .logo img{
     width: 100px;
@@ -47,3 +48,21 @@ nav .menu ul input{
     border-radius: 10px;
     border-color: white;
 }
+
+/* this is header section  */
+header{
+    background-image: url(Images/poster.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+header .letter{
+    font-family: Comic Sans MS;
+    width: 400px;
+
+    
+}
+header .letter h2{
+    margin-top: 0;
+}
+
