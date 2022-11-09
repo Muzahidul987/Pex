@@ -91,3 +91,18 @@ button {
     margin-top: 22px;
     margin-left: 130px;
 }
+
+/* this is description section  */
+.description{
+    background-color: #2e3b4e;
+    color: white;
+    display: grid;
+    grid-template-columns:repeat(6, 4fr);
+}
+.description h3 {
+   margin: 0;
+}
+.description .details{
+    width: 400px;
+
+}
