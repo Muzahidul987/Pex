@@ -1,6 +1,7 @@
 /* this is body section  */
 body {
     margin: 0;
+    font-family: sans-serif;
 }
 
 /* this is heading_poster section  */
@@ -164,6 +165,29 @@ button {
     border: 0;
     border-radius: 25px;
     font-size: 24px;
-    margin-top: 10px;
-    margin-left: 30px;
+    margin: 10px 0 40px 30px;
+}
+
+/* this is open section  */
+.open{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 60px;
+}
+.open .open_img img{
+    width: 500px;
+}
+.open .open_heading{
+    grid-column: 2/5; 
+}
+.open .open_heading h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-top: 50px;
+}
+.open .open_heading p{
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify ;
 }
