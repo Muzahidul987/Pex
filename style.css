@@ -93,13 +93,6 @@ button {
 }
 
 /* this is description section  */
-.overflow{
-    background-image: url(Images/overflow.png);
-    background-position: bottom center;
-    border: 10px solid red;
-    height: 100vh;
-    background-size: cover;
-}
 .description{
     background-color: #2e3b4e;
     color: white;
@@ -128,4 +121,49 @@ button {
 .description .fantastic,
 .description .blaz{
     grid-column: 2/3;
+}
+
+/* this is bang_bang_boo! section  */
+.bang_bang{
+    background-image: url(Images/red_jungle.png);
+    background-size: cover;
+    height: 90vh;
+    background-position: center;
+    font-family: sans-serif;
+}
+.bang_bang .bang_bang_2{
+    background-color: rgba(241, 57, 54, 0.4);
+    background-size: cover;
+    height: 90vh;
+    background-position: center;
+    display: grid;
+    grid-template-columns:repeat(6, 1fr) ;
+}
+.bang_bang .bang_bang_2 .bang_bang_3{
+    grid-column: 2/6;
+    justify-content: center;
+    text-align: center;
+
+}
+.bang_bang .bang_bang_2 .bang_bang_3 h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-top: 100px;
+}
+.bang_bang .bang_bang_2 .bang_bang_3 p{
+    width: 460px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    padding:20px 260px;
+}
+.bang_bang .bang_bang_2 .bang_bang_3 button{
+    background: white;
+    color: rgb(244, 81, 78);
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 25px;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 30px;
 }
