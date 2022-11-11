@@ -97,12 +97,28 @@ button {
     background-color: #2e3b4e;
     color: white;
     display: grid;
-    grid-template-columns:repeat(6, 4fr);
+    grid-template-columns:repeat(4, 4fr);
+    justify-items: center;
+    padding: 50px 0;
+    grid-gap: 40px;
+    font-family: sans-serif;
 }
 .description h3 {
    margin: 0;
+   font-size: 30px;
+   text-transform:capitalize ;
 }
-.description .details{
+.description p{
+    font-size: 15px;
+    line-height: 30px;
+}
+.description .fantastic,
+.description .good_day,
+.description .blaz,
+.description .vote{
     width: 400px;
-
+}
+.description .fantastic,
+.description .blaz{
+    grid-column: 2/3;
 }
