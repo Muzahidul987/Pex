@@ -62,7 +62,7 @@ header {
     background-image: url(Images/poster.png);
     background-size: cover;
     height: 86vh;
-    background-position: bottom center;
+    background-position: center;
     display: grid;
     align-content: center;
     padding-left: 140px;
@@ -93,6 +93,13 @@ button {
 }
 
 /* this is description section  */
+.overflow{
+    background-image: url(Images/overflow.png);
+    background-position: bottom center;
+    border: 10px solid red;
+    height: 100vh;
+    background-size: cover;
+}
 .description{
     background-color: #2e3b4e;
     color: white;
